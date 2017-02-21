@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mi pformulario</title>
+</head>
+<body style="text-align: center;"> 
+	<h1>Completa el Formulario</h1>
+	<section>
+		<form action="">
+	<label for="Nombre">Nombre</label><br/>
+	<input type="text" required=""> <br/> <br/>
+	<label for="apellido">Apellido</label><br/>
+	<input type="text" id = "textApellido" required=""><br/><br/>
+	<label for="telefono">Teléfono</label><br/>
+	<input type="text" maxlength="9" pattern="[0-9]{9}" required=""><br/><br/>
+		<form action="">
+
+	<h3>Elige tu carro</h3>
+	<select name="eligetucarro" id="eligetucarro" required="">
+		<option value="">Selecciona tu auto</option>
+		<option value=" ">Volvo</option>
+		<option value=" ">Saab</option>
+		<option value="">Mercedes</option>
+		<option value="">Audi</option>
+		</select><br/><br/>			
+
+	<label for="email">Email</label><br/>	
+	<input type="email" required=""><br/><br/>
+	<label for="creatucontraseña">Crea tu contraseña</label><br/>
+	<input type="password" name="contraseña" pattern=".{8,}" title="8 o más caracteres" required=""><br/><br/>
+	<button type="submit">Enviar</button>
+		</form>
+	</section>
+	
+</body>
+</html>
